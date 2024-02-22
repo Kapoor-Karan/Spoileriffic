@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function showContent() {
         const content = document.getElementById("content");
-        content.style.display = "block";
+        // content.style.display = "block";
     }
 });

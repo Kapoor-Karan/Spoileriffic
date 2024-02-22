@@ -4,19 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./sources/logo/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/loader.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation-flex.min.css'>
+    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/animate.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Spoileriffic</title>
 </head>
-<body>
-    
-    <div id="loader" class="loader"></div>
-    
+<body>    
+
     <main>
-        <div id="content" class="hidden">
-            <h1>This is the first page</h1>
-        </div>        
+        <div class="menu_container">
+
+            <canvas id="canvas"></canvas>
+    
+                <div class="base-page__interior">
+                 
+                    <div class="nav-container">
+                        <a class="fadeInRight animated" id="nav-toggle" href="#"><p class="menu-link nav-link">Menu</p><span></span></a>
+                    </div>
+                    <div class="top-left__corner fadeInRight animated"></div>
+                    <div class="animated icons">
+                        <div><a href="#"><i class="fa fa-dribbble icon-link animated" aria-hidden="true"></i></a></div>
+                        <div><a href="#"><i class="fa fa-codepen icon-link animated" aria-hidden="true"></i></a></div>
+                        <div><a href="#"><i class="fa fa-github icon-link animated" aria-hidden="true"></i></a></div>
+                        <div><a href="#"><i class="fa fa-dribbble icon-link animated" aria-hidden="true"></i></a></div>
+                        <div><a href="#"><i class="fa fa-linkedin icon-link animated" aria-hidden="true"></i></a></div>
+                    </div>
+
+                    <div class="primary-text__container fadeIn animated">
+                        <h2 class="title ">Spoileriffic</h2>
+                        <p class="para">
+                            We are a movie review company that aims at providing genuine movie reviews. You may be concerned about the fact
+                            that if the movie you are about to watch is worth the time and investment and we are here to solve that problem.
+                            We make sure that you get the most genuine review possible so that you can choose the perfect movie for the
+                            evening.
+                        </p>
+                    </div>  
+
+                    <div class="bottom-right__corner fadeInLeft animated"></div>
+                    <div class="home-menu">
+                        <ul class="home-link-list">
+                            <li class="nav-link animated home-link"><a href="/index.html">home</a></li>
+                            <li class="nav-link work-link animated"><a href="{{root}}work.html">work</a></li>
+                            <li class="nav-link animated about-link"><a href="/about.html">about</a></li>
+                            <li class="nav-link animated contact-link"><a href="/contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
     </main>
     
-    <script src="./scripts/loader.js"></script>
+    <script src="./scripts/nav.js"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/utils/Draggable.min.js'></script>
 </body>
 </html>
