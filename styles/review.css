@@ -46,3 +46,16 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+#search-button {
+    padding: 0.5vh 1vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    background-color: white;
+    color: black;
+}
+
+#search-button:hover {
+    color: white;
+    background-color: black;
+}
