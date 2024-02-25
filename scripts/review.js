@@ -3,7 +3,7 @@ const searchInput = document.getElementById('search-movie');
 const imageContainer = document.getElementById('image-container');
 const reviewSection = document.getElementById('review-section');
 
-const apiKey = '195f9bb150f7dc7c6d1be77416c3b24a'; // Replace with your API key
+const apiKey = '195f9bb150f7dc7c6d1be77416c3b24a';
 
 searchButton.addEventListener('click', () => {
     const movieTitle = searchInput.value.trim();
@@ -12,7 +12,7 @@ searchButton.addEventListener('click', () => {
         return;
     }
 
-    searchInput.value = ''; // Clear the search input
+    searchInput.value = ''; 
 
     fetchMovieInfo(movieTitle);
 });
@@ -31,7 +31,7 @@ function fetchMovieInfo(movieTitle) {
             const movieId = data.results[0].id;
             fetchReview(movieId);
 
-            displayImage(data.results[0].poster_path); // Display movie poster
+            displayImage(data.results[0].poster_path);
         })
         .catch(error => {
             console.error('Error fetching movie info:', error);
@@ -55,7 +55,7 @@ function fetchReview(movieId) {
             reviewSection.innerHTML = `
                 <h2>Review by ${author}</h2>
                 <p>${review.content}</p>
-            `; // Display review in HTML format
+            `;
         })
         .catch(error => {
             console.error('Error fetching review:', error);

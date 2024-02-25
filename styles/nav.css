@@ -71,6 +71,7 @@ body {
   height: 275px;
   border: 5px solid #fff;
   transition: all 300ms ease-in-out;
+  z-index: 1000;
 }
 
 .top-left__corner {
@@ -118,6 +119,7 @@ body {
   position: fixed;
   bottom: 12px;
   left: 180px;
+  z-index: 1000;
 }
 .home-menu ul {
   list-style-type: none;
@@ -207,4 +209,23 @@ body {
   font-size: 1.3em;
   line-height: 0.5;
   color: #aaa;
+}
+
+a {
+  z-index: 1000;
+}
+
+.para {
+  height: 140vh;
+}
+
+.gradient-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh; /* Adjust height as needed */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  /* Ensure z-index is high enough to stay on top */
+  z-index: 100;
 }
