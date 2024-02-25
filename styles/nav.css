@@ -1,17 +1,9 @@
-/**************************
-        VARIABLES
-**************************/
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700");
-/**************************
-    CODE PEN STYLES
-**************************/
+
 body {
   background-color: #000;
 }
 
-/**************************
-   NAVIGATION STYLES
-**************************/
 #nav-toggle {
   position: fixed;
   right: 128px;
@@ -151,9 +143,6 @@ body {
   color: #EAE5E1;
 }
 
-/*****************************
-    TEXT CONTAINER STYLES
-*****************************/
 .menu_container {
   overflow: hidden;
   height: 100vh;
@@ -224,8 +213,17 @@ a {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 70vh; /* Adjust height as needed */
+  height: 70vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-  /* Ensure z-index is high enough to stay on top */
   z-index: 100;
+}
+
+.gradient-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  z-index: 100; 
 }
