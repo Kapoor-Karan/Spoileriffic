@@ -1,13 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     color: white;
     background-color: black;
+    
 }
 
 ul {
-    list-style: none;
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 300px;
+    
 }
 
-a {
+a{
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
 }
