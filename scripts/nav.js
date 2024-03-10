@@ -5,6 +5,3 @@ document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
     $('.top-left__corner').toggleClass('shrink-height');
     $('.bottom-right__corner').toggleClass('shrink-width');
 });
-
-// $('.menu-link').delay( 950 ).fadeIn( 400 );
-console.log('test');

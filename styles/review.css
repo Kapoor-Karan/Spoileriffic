@@ -6,7 +6,7 @@ body {
 
 .container {
     max-width: 100vh;
-    margin: 10% auto;
+    margin: auto;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 
 input[type="text"] {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     flex: 1;
     margin-right: 10px;
