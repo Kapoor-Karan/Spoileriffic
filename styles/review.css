@@ -2,7 +2,6 @@ body {
     background-color: black;
     color: white;
     padding: 20px;
-    background-image: url(movie\ background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
