@@ -29,3 +29,10 @@ a{
     z-index: inherit;
     max-width: 12vh;
   }
+  .copyright{
+    font-size: 2.5vh;
+    position: absolute;
+    bottom: 1%;
+    padding: 1vh auto;
+    right: 1%;
+}
