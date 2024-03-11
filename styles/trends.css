@@ -27,7 +27,7 @@ a{
     left: 0;
     position: fixed;
     z-index: inherit;
-    max-width: 12vh;
+    max-width: 8vh;
   }
   .copyright{
     font-size: 2.5vh;

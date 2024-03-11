@@ -60,7 +60,7 @@ li {
     left: 0;
     position: fixed;
     z-index:  110;
-    max-width: 12vh;
+    max-width: 8vh;
 }
 .copyright{
     font-size: 2.5vh;
